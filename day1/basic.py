@@ -20,11 +20,11 @@ number = 3 # integer variable
 float_number = 3.14 # float variable
 
 # math module
-float_number2 = floor(float_number) # floor function
-float_number3 = ceil(float_number) # ceil function
-float_number4 = sqrt(float_number) # sqrt function
+float_number2 = math.floor(float_number) # floor function
+float_number3 = math.ceil(float_number) # ceil function
+float_number4 = math.sqrt(float_number) # sqrt function
 float_number5 = pow(float_number, 2) # pow function
-float_number6 = pi # pi constant
+float_number6 = math.pi # pi constant
 
 # string methods
 name2 = name.upper() # upper method
